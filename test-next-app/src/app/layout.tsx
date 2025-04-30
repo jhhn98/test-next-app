@@ -1,9 +1,12 @@
+import '../style/reset.scss';
 import '../style/global.scss';
 
-export const metadata = {
-  title: 'Next.js App',
-  description: 'Next.js test application'
-}
+export const metadata = [
+  {
+    title: 'Next.js App',
+    description: 'Next.js test application'
+  },
+]
 
 export default function RootLayout({  
   children,
